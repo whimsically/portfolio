@@ -18,8 +18,8 @@ function App() {
   return (
     <>
       <Header />
-      <Navbar />
       <main>
+      <Navbar />
         <SwitchTransition>
           <CSSTransition
             key={location.pathname}
