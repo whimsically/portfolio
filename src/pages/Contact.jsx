@@ -10,8 +10,12 @@ const Contact = () => {
   }
 
   const handleSubmit = (event) => {
-    event.preventDefault();
-    alert(inputs);
+    if (inputs.username && inputs.email && inputs.message) {
+      event.preventDefault();
+      console.log(inputs.username, inputs.email, inputs.message);
+    } else {
+      alert('Please fill out all form items');
+    }
   }
 
     return (
@@ -28,8 +32,9 @@ const Contact = () => {
             <br />
           <input 
             type="text" 
-            name="username" 
-            value={inputs.username || ""} 
+            name="username"
+            defaultValue={'Name'} 
+            value={inputs.username} 
             onChange={handleChange}
           />
           </label>
@@ -38,22 +43,24 @@ const Contact = () => {
             <br />
           <input 
             type="email" 
-            name="email" 
-            value={inputs.email || ""} 
+            name="email"
+            defaultValue={'Email'} 
+            value={inputs.email} 
             onChange={handleChange}
           />
           </label>
           <br />
         <label>Enter your message:
           <br />
-          <textarea rows="2" cols="25" name="message" 
-          value={inputs.message || ""} 
+          <textarea rows="2" cols="25" name="message"
+          defaultValue={'Message'} 
+          value={inputs.message} 
           onChange={handleChange}>
           </textarea>
           </label>
           <br />
           <br />
-          <input type="submit" value="Submit" className="button" />
+          <input type="submit" value="Submit" className="" />
         </form>
       </div>
     );
