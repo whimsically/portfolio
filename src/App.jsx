@@ -1,9 +1,10 @@
-import {  NavLink, useLocation, useOutlet, } from 'react-router-dom';
+import { useLocation, useOutlet, } from 'react-router-dom';
 import { routes } from './routes.jsx'
 
 //components
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Navbar from './components/Navbar';
 
 //styling
 import { CSSTransition, SwitchTransition } from 'react-transition-group'
@@ -17,19 +18,7 @@ function App() {
   return (
     <>
       <Header />
-        <nav>
-          {routes.map((route) => (
-            <NavLink
-              key={route.path}
-              as={NavLink}
-              to={route.path}
-              className={({ isActive }) => (isActive ? 'active' : undefined)}
-              end
-            >
-              {route.name}
-            </NavLink>
-          ))}
-        </nav>
+      <Navbar />
       <main>
         <SwitchTransition>
           <CSSTransition
