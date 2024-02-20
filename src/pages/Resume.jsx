@@ -1,7 +1,6 @@
-const Contact = () => {
+const Resume = () => {
     return (
       <div>
-        <h1>Contact</h1>
         <p>
           Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
           Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
@@ -14,5 +13,5 @@ const Contact = () => {
     );
   }
 
-  export default Contact;
+  export default Resume;
   

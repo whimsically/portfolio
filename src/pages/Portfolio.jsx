@@ -1,7 +1,6 @@
-const Projects = () => {
+const Portfolio = () => {
     return (
       <div>
-        <h1>Projects Page</h1>
         <p>
           Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
           Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
@@ -14,5 +13,5 @@ const Projects = () => {
     );
   }
 
-  export default Projects;
+  export default Portfolio;
   

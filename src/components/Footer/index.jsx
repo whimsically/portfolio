@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer>test footer</footer>
+        <footer>created with react and vite</footer>
     );
   }
 
