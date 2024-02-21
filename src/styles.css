@@ -81,6 +81,10 @@ footer {
     text-shadow: 1px 1px 1px #FFC0D3;
   }
 
+footer a {
+  color: white;
+}
+
 main {
   background-color: var(--content-bg-color);
   width: 70vw;
