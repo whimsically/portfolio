@@ -22,9 +22,9 @@ const Contact = () => {
       <div>
         <h2>Contact</h2>
         <p>You can contact me with the form below or follow any of these links!</p>
-        <ul>
-          <li><i className="bi bi-envelope-at"></i> <a href="mailto:amandakathleennorris@gmail.com">Email</a></li>
-          <li><i className="bi bi-github"></i> <a href="https://github.com/whimsically">GitHub</a></li>
+        <ul className='contact-list'>
+          <li><a href="mailto:amandakathleennorris@gmail.com"><i className="bi bi-envelope-at"></i> Email</a></li>
+          <li><a href="https://github.com/whimsically"><i className="bi bi-github"></i> GitHub</a></li>
         </ul>
 
         <form onSubmit={handleSubmit}>

@@ -165,3 +165,17 @@ img {
 .projectCard a:hover {
   font-weight: bolder;
 }
+
+.contact-list {
+  font-size: larger;
+  line-height: 1.5;
+}
+
+.contact-list a {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+.contact-list a:hover {
+  font-weight: bolder;
+}
