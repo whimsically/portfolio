@@ -2,7 +2,7 @@ const Resume = () => {
     return (
       <div>
         <h2>Resume</h2>
-        <p>Download my resume <a href='placeholder'>here!</a></p>
+        <p>Download my resume <a href='amanda-norris-resume-2024.pdf'>here!</a></p>
         <h3>Front End Proficiencies:</h3>
         <ul>
           <li>HTML</li>
