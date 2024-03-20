@@ -3,7 +3,7 @@ const Contact = () => {
     return (
       <div>
         <h2>Contact</h2>
-        <p>You can email me or follow any of these links!</p>
+        <p>You can contact me in the following ways:</p>
         <ul className='contact-list'>
           <li><a href="mailto:amandakathleennorris@gmail.com"><i className="bi bi-envelope-at"></i> Email</a></li>
           <li><a href="https://github.com/whimsically"><i className="bi bi-github"></i> GitHub</a></li>
