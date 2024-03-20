@@ -7,7 +7,7 @@ const Contact = () => {
         <ul className='contact-list'>
           <li><a href="mailto:amandakathleennorris@gmail.com"><i className="bi bi-envelope-at"></i> Email</a></li>
           <li><a href="https://github.com/whimsically"><i className="bi bi-github"></i> GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/amanda-k-norris/"><i className="bi bi-linkedin"></i>LinkedIn</a></li>
+          <li><a href="https://www.linkedin.com/in/amanda-k-norris/"><i className="bi bi-linkedin"></i> LinkedIn</a></li>
         </ul>
       </div>
     );
