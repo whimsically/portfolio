@@ -18,11 +18,6 @@ const Portfolio = () => {
           imageURL={'/blogsite.png'}
           description={'A blog with CRUD routes and user authentication. Uses Express, Handlebars, MySQL + Sequelize'} />
 
-          <Project name={'Project 3 Placeholder'} 
-            github={'http://github.com'}
-            deployed={'http://google.com'}
-            imageURL={'http://placekitten.com/200/200'}
-            description={'Placeholder for 3rd Group Project'} />
           
           <Project name={'Social Media Back End'} 
             github={'https://github.com/whimsically/social-network'}
@@ -39,7 +34,7 @@ const Portfolio = () => {
             <Project name={'E-Commerce Back End'} 
               github={'https://github.com/whimsically/ecommercebackend'}
               deployed={'https://watch.screencastify.com/v/V4e1XlMNKLzF2FA3kDbn'}
-              imageURL={'http://placekitten.com/200/200'}
+              imageURL={''}
               description={'Back end for an e-commerce site using Express.js and Sequelize'} />
         </div>
       </div>
